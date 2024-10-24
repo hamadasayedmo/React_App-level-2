@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .show-when-mobile {
+    display: flex;
+  }
+}
+
+.toggle-dark-mode {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+.toggle-dark-mode:hover {
+  box-shadow: 0 0 5px cyan;
+  color: cyan;
+  border-radius: 5px;
+}
+
+.dark {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.light {
+  background-color: #aaa;
+}
