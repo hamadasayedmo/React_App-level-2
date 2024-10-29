@@ -1,7 +1,7 @@
 import Header from '../component/header';
 import Footer from "../component/footer";
 import MainContent from "../component/mainContent";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 function Html() {
   return (

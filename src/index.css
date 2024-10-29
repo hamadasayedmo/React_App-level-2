@@ -37,3 +37,67 @@ Icon (sun & moon)
 .dark .fa-moon {
   display: none;
 }
+
+
+/* ==============
+  Style Link Header
+==================*/
+
+.dark .main-link:hover, 
+.dark .main-link.active {
+  color: cyan;
+  box-shadow: 0 0 5px cyan;
+  border-radius: 5px;
+}
+.light .main-link:hover, 
+.light .main-link.active {
+  color: #fff;
+  box-shadow: 0 0 5px #1b1b1b;
+  border-radius: 5px;
+}
+
+
+
+
+/* ==============
+  Form Sign In
+==================*/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 10px 5px ;
+  width: 380px;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+main p {
+  font-size: 25px;
+}
+
+.dark main .btn {
+  background-color: #326673;
+}
+
+.dark main .signin-to-signup p .link {
+  color: #326673;
+  text-decoration: underline;
+}
+
+
+.light main .btn {
+  background-color: #1b1b1b;
+}
+
+.light main .signin-to-signup p .link {
+  color: #1b1b1b;
+  text-decoration: underline;
+}

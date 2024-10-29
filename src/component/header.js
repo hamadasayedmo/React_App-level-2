@@ -17,6 +17,16 @@ const Header = () => {
           <h1>Courses four Arab</h1>
         </Link>
         <ul className="flex">
+        <li className="main-list">
+            <Link className="main-link" to="/signin">
+              Sign In
+            </Link>
+          </li>
+          <li className="main-list">
+            <Link className="main-link" to="/signup">
+            Sign Up
+            </Link>
+          </li>
           <li className="main-list">
             <NavLink className="main-link" to="/html">
               HTML
