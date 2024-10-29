@@ -71,15 +71,21 @@ const Header = () => {
             </ul> */}
           </li>
         </ul>
-        <button
-          className="toggle-dark-mode"
+
+        <i
           onClick={() => {
             changeThemes(theme === "light" ? "dark" : "light");
             changeName(name === "Light" ? "Dark" : "Light");
           }}
-        >
-          {name}
-        </button>
+          className="toggle-dark-mode fa-solid fa-moon"
+        ></i>
+        <i
+          onClick={() => {
+            changeThemes(theme === "light" ? "dark" : "light");
+            changeName(name === "Light" ? "Dark" : "Light");
+          }}
+          className="toggle-dark-mode fa-solid fa-sun"
+        ></i>
       </header>
 
       <header className="show-when-mobile colorRed">
@@ -151,15 +157,20 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <button
-          className="toggle-dark-mode"
+        <i
           onClick={() => {
             changeThemes(theme === "light" ? "dark" : "light");
             changeName(name === "Light" ? "Dark" : "Light");
           }}
-        >
-          {name}
-        </button>
+          className="toggle-dark-mode fa-solid fa-moon"
+        ></i>
+        <i
+          onClick={() => {
+            changeThemes(theme === "light" ? "dark" : "light");
+            changeName(name === "Light" ? "Dark" : "Light");
+          }}
+          className="toggle-dark-mode fa-solid fa-sun"
+        ></i>
       </header>
     </div>
   );

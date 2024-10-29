@@ -8,8 +8,32 @@ body {
 }
 
 
-.title, h2{
+.title,
+h2 {
   text-align: center;
 }
 
+/* ==============
+Icon (sun & moon)
+==================*/
+.fa-solid {
+  font-size: 20px;
+}
 
+.fa-solid:hover {
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.light .fa-sun {
+  display: none;
+}
+
+.fa-sun {
+  color: orange;
+}
+
+.dark .fa-moon {
+  display: none;
+}

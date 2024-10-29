@@ -15,11 +15,6 @@
   border-radius: 10px;
 }
 
-.toggle-dark-mode:hover {
-  box-shadow: 0 0 5px cyan;
-  color: cyan;
-  border-radius: 5px;
-}
 
 .dark {
   background-color: #1b1b1b;

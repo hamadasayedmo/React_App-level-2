@@ -4,8 +4,18 @@ const ThemeContexttt = createContext();
 
 // get Data from Local Storage
 const initialData = {
-  name: localStorage.getItem("name"),
-  theme: localStorage.getItem("theme"),
+  name:
+    localStorage.getItem("name") === null
+      ? "Light"
+      : localStorage.getItem("name") === "Light"
+      ? "Light"
+      : "Dark",
+  theme:
+    localStorage.getItem("theme") === null
+      ? "light"
+      : localStorage.getItem("theme") === "light"
+      ? "light"
+      : "dark",
 };
 
 const reducer = (state, action) => {
